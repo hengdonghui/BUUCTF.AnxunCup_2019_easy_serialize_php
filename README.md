@@ -222,15 +222,8 @@ flag{d83251f9-a177-40dd-a3b2-fb03d645ee9e}
 
 ## 五、完整的攻击流程
 
-```mermaid
-flowchart TD
-    A[访问 ?f=phpinfo] --> B[发现 d0g3_f1ag.php]
-    B --> C[构造键名逃逸 Payload]
-    C --> D[读取 d0g3_f1ag.php]
-    D --> E[获得路径提示:<br>flag in /d0g3_fllllllag]
-    E --> F[构造新 Payload<br>img 指向 /d0g3_fllllllag]
-    F --> G[获得 Flag]
-```
+<img width="246" height="742" alt="完整的攻击流程" src="https://github.com/user-attachments/assets/f5d70ffe-58ab-41aa-9234-4304f600673c" />
+
 
 ---
 
